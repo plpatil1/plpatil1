@@ -14,7 +14,7 @@
 Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with robust Java expertise and a passion for creating scalable applications. Proficient in a diverse tech stack including JavaScript, React.js, Node.js, Next.js, and more, I excel in building responsive, user-centric web interfaces. With hands-on experience in version control, I lead and collaborate on impactful projects. Known for quick learning, creativity, and problem-solving, I’m eager to contribute to transformative IT projects, driving technological innovation.
 
 
-<p align='center' style='margin: 16px 4px 8px;'>
+<p align='center' style='margin: 16px 4px 8px'>
     <img src="./assets/animi-guy.webp" alt="working developer">
 </p>
 
