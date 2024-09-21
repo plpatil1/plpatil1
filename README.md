@@ -135,11 +135,6 @@ jobs:
 
 ---
 
-### 3D Contribution Graph
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" />
-</p>
-
 ---
 
 [![Pawan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=plpatil1&theme=react-dark)](https://github.com/plpatil1/github-readme-activity-graph)
