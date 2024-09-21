@@ -69,24 +69,61 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
 </p>
 
 
-## GitHub Profile
 
-### Streak Stats
-<p align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=plpatil1&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727" />
-</p>
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
 
+name: Generate Snake
 
-### GitHub Stats
-<a href="https://github.com/plpatil">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=plpatil1&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=plpatil1&show_icons=true&locale=en&theme=chartreuse-dark" alt="GitHub Stats" width="400px" />
-</a>
+# Controls when the action will run. This action runs every 6 hours.
 
-<!-- <div style="clear: both;"></div> -->
+on:
+  schedule:
+      # every 6 hours
+    - cron: "0 */6 * * *"
 
----
+# This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
 
+# The sequence of runs in this workflow:
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Generates the snake  
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: plpatil1
+          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      - run: git status
+
+      # Push the changes
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ### Profile Summary
 <hr>
 
