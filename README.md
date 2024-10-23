@@ -69,51 +69,8 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
 </p>
 
 
-name: Generate Snake
 
-# Controls when the action will run. This action runs every 6 hours.
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-
-# Allows manual triggering of the workflow.
-  workflow_dispatch:
-
-jobs:
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    steps:
-      # Checkout the repository
-      - uses: actions/snake11
-
-      # Generates the snake
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: plpatil1
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
-      # Display the status of the build
-      - run: git status
-
-      # Commit and push the generated files
-      - name: Push changes
-        uses: github-actions-x/snake11
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output  # Ensure this matches where the snake output is being pushed
-          commit_message: "Generated snake graph"
-
-      # Deploy the output to GitHub Pages
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
 
 
 
