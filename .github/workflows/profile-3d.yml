@@ -14,12 +14,12 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: plpatil1  # Your GitHub ID
           MAX_REPOS: 250
       - name: Commit & Push
         run: |
-          git config user.name ${{ github.repository_owner }}
-          git config user.email plpatil1151@gmail.com
+          git config user.name plpatil1  # Your GitHub ID
+          git config user.email plpatil1151@gmail.com  # Your email
           git add -A .
           git commit -m "GitHub 3D Profile"
           git push
