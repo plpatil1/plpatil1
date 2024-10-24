@@ -74,12 +74,12 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
 
 ### Streak Stats
 <p align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=plpatil&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727" />
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=plpatil1&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&fire=DD2727" />
 </p>
 
 
 ### GitHub Stats
-<a href="https://github.com/plpatil1">
+<a href="https://github.com/plpatil">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=plpatil1&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=plpatil1&show_icons=true&locale=en&theme=chartreuse-dark" alt="GitHub Stats" width="400px" />
 </a>
