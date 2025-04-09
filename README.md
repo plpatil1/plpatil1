@@ -81,13 +81,6 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=plpatil1&theme=radical" alt="Profile Summary" />
   </a>
 </p>
-
-
-### 3D Contribution Graph
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" />
-</p>
-
 ---
 
 ![Pawan Lekurwale's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=plpatil1&theme=react-dark)
