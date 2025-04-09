@@ -90,4 +90,4 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
 
 ---
 
-[![Pawan Lekurwale's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=plpatil1&theme=react-dark)]
+![Pawan Lekurwale's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=plpatil1&theme=react-dark)
