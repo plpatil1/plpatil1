@@ -80,3 +80,10 @@ Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with rob
 ---
 
 ![Pawan Lekurwale's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=plpatil1&theme=react-dark)
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+</picture>
