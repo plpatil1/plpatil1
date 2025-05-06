@@ -11,7 +11,7 @@
 - [![Resume](https://img.shields.io/badge/Resume-212121?logo=pagekit&logoColor=FFEFCB&style=for-the-badge)](https://drive.google.com/file/d/1DJ4H8zkq16eDaLWolpyYcV4Tru_FxicV/view?usp=sharing)
 - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pawan-lekurwale-3b2352260/)
 
-Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with robust Java expertise and a passion for creating scalable applications. Proficient in a diverse tech stack including JavaScript, React.js, Node.js, Next.js, and more, I excel in building responsive, user-centric web interfaces. With hands-on experience in version control, I lead and collaborate on impactful projects. Known for quick learning, creativity, and problem-solving, I’m eager to contribute to transformative IT projects, driving technological innovation.
+Innovative Electrical Engineer turned aspiring Full-Stack Web Developer with robust Java expertise and a passion for creating scalable applications. Proficient in a diverse tech stack including JavaScript, React.js, Node.js, Next.js, and more, I excel in building responsive, user-centric web interfaces. 
 
 
 <p align='center' style='margin: 16px 4px 8px'>
