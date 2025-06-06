@@ -6,7 +6,7 @@
 </h1>
 
  👋 Hi, I’m @plpatil1
-- 👀 I’m interested in Web Developement 
+- 👀 I’m interested in Software Developement 
 - 🌱 I’m a Full Stack Developer
 - [![Portfolio](https://img.shields.io/badge/portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://plpatil1.github.io/)
 - [![Resume](https://img.shields.io/badge/Resume-212121?logo=pagekit&logoColor=FFEFCB&style=for-the-badge)](https://drive.google.com/file/d/1DJ4H8zkq16eDaLWolpyYcV4Tru_FxicV/view?usp=sharing)
